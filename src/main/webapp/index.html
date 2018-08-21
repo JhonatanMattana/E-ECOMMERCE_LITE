@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<head>
+<title>Start Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body ng-app="TesteApp">
+	<di ng-controller="ChamadoController as controller">
+	<h1>{{controller.usuario}}</h1>
+	</div>
+
+
+	<script src="resources/angular.js"></script> 
+	<script src="resources/testeAngular.js"></script>
+</body>
 </html>
